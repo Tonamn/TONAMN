@@ -1,0 +1,20 @@
+body {
+    margin: 0;
+    font-family: helvetica;
+    cursor: default;
+}
+
+.view {
+    width: calc(100% - 250px);
+    margin-left: 250px;
+
+}
+
+h1 {
+    font-weight: 200;
+    /* font-size: 1.6rem; */
+    position: relative;
+    top: 20px;
+    color:black;
+  }
+
