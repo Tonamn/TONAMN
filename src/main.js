@@ -5,8 +5,8 @@ import App from './App.vue'
 const router = createRouter({
     history: createWebHistory(),
     routes: [
-        // {path: '', component: HomePage},
-        // {path: '/newpage', component: NewPage}
+        // This is bad practice
+        { path: '/', component: App}
     ] 
 }); 
 
