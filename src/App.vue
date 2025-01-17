@@ -7,7 +7,7 @@
         <div class="border title link" @click="component ='HomeView'"> Home </div>
         <div class="link" @click="component ='DaedaleoView'"> Daedaleo Hotel</div>
         <div class="link" @click="component ='BoxView'"> Box</div>
-        <div class="border link" @click="component ='CloseView'"> Don't Come Close</div>
+       <!-- <div class="border link" @click="component ='CloseView'"> Don't Come Close</div> -->
 
         <div class="title">Commission</div>
         <div class="link" @click="component ='DesertView'"> Emergency Landing</div>
@@ -21,7 +21,7 @@
         <div class="link" @click="component ='SawanyaView'"> Sawanya</div>
         <div class="link" @click="component ='ProductView'"> Product Photography</div>
         <div class="border link" @click="component ='LogoView'"> Logo Design</div>
-        <div class="link" id="secret" @click="hideSecret"> Playground</div>
+       <!-- <div class="link" id="secret" @click="hideSecret"> Playground</div> -->
         <div class="link" @click="component ='cvView'"> cv</div>
     </div>
     <keep-alive>
@@ -36,7 +36,7 @@ import logoT from "./assets/logoT.svg"
 import HomeView from "./components/view/HomeView.vue"
 import DaedaleoView from "./components/view/DaedaleoView.vue";
 import BoxView from "./components/view/BoxView.vue";
-import CloseView from "./components/view/CloseView.vue";
+/* import CloseView from "./components/view/CloseView.vue"; */
 import DesertView from "./components/view/DesertView.vue";
 import HouseofwoodView from "./components/view/HouseofwoodView.vue";
 import ThreadsomView from "./components/view/ThreadsomView.vue";
@@ -46,7 +46,7 @@ import GalleryView from "./components/view/GalleryView.vue";
 import SawanyaView from "./components/view/SawanyaView.vue";
 import ProductView from "./components/view/ProductView.vue";
 import LogoView from "./components/view/LogoView.vue";
-import PlaygroundView from "./components/view/PlaygroundView.vue";
+/* import PlaygroundView from "./components/view/PlaygroundView.vue"; */
 import cvView from "./components/view/cvView.vue";
 
 export default {
@@ -54,7 +54,7 @@ export default {
     HomeView,
     DaedaleoView,
     BoxView,
-    CloseView,
+   /* CloseView, */
     DesertView,
     HouseofwoodView,
     ThreadsomView,
@@ -64,7 +64,7 @@ export default {
     SawanyaView,
     ProductView,
     LogoView,
-    PlaygroundView,
+   /* PlaygroundView, */
     cvView
   },
   data() {
