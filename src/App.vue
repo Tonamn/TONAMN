@@ -21,7 +21,7 @@
         <div class="link" @click="goToRoute('product')"> Product Photography</div>
         <div class="border link" @click="goToRoute('logo')"> Logo Design</div>
        <!-- <div class="link" id="secret" @click="hideSecret"> Playground</div> -->
-        <div class="link" @click="goToRoute('cv')"> cv</div>
+        <!-- <div class="link" @click="goToRoute('cv')"> cv</div> -->
     </div>
     <!-- This will render the active component based on route -->
     <router-view></router-view>
