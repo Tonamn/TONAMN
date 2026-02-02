@@ -1,7 +1,7 @@
 <template>
 
   <div class="home view">
-    <h1 class="red">This digital space encapsulates my work as an art director and visual communicator - I experimented with photography, 3D digital imagery, and creative computing to generate this personal domain.</h1>
+    <h1 class="red">This digital space encapsulates my work as an art director and visual communicator -    I experimented with photography, 3D digital imagery, and creative computing to generate this personal domain.</h1>
     <h2 class="title">TONNAM</h2>
     <img class="card" src="@/assets/card.png" width="800">
     <h3> photography archive
