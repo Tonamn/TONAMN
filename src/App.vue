@@ -5,7 +5,7 @@
         <img class="logo" :src="logo"/>
         <div class="border title link" @click="goToRoute('home')"> Home </div>
         <div class="link" @click="goToRoute('daedaleo')"> Daedaleo Hotel</div>
-        <div class="link" @click="goToRoute('box')"> Box</div>
+        <div class="border link" @click="goToRoute('box')"> Box</div>
        <!-- <div class="border link" @click="component ='CloseView'"> Don't Come Close</div> -->
 
         <div class="title">Commission</div>
